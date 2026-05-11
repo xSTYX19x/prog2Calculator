@@ -57,6 +57,7 @@ public class Calculator extends JFrame {
 
         // TODO
         // Add a new operation "Div" for the division of two integers as a lambda expression
+        operations.put("Div", (a, b) -> a / b);
 
         operationSelector = new JComboBox<>();
         operations.forEach((key, value) -> operationSelector.addItem(key));
