@@ -47,6 +47,13 @@ public class Calculator extends JFrame {
 
         // TODO
         // Add a new operation "Mul" for the multiplication of two integers as an anonymous class
+        Operation Mul = new Operation() {
+            @Override
+            public int doOperation(int a, int b) {
+                return a * b;
+            }
+        };
+        operations.put("Mul", Mul);
 
         // TODO
         // Add a new operation "Div" for the division of two integers as a lambda expression
