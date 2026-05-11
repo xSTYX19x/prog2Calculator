@@ -43,9 +43,7 @@ public class Calculator extends JFrame {
         operations = new HashMap<>();
         operations.put("Add", new Add());
 
-        // TODO
-        // Add a new operation "Sub" for the subtraction of two integers as an (instance of a) Java
-        // class (you have yet to write this class)
+        operations.put("Sub", new Sub());
 
         // TODO
         // Add a new operation "Mul" for the multiplication of two integers as an anonymous class
